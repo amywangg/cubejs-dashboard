@@ -6,12 +6,12 @@ import { Layout, Menu } from "antd";
 const Header = ({ location }) => (
   <Layout.Header
     style={{
-      padding: "0 32px"
+      padding: "0 32px",
     }}
   >
     <div
       style={{
-        float: "left"
+        float: "left",
       }}
     >
       <h2
@@ -21,10 +21,10 @@ const Header = ({ location }) => (
           marginRight: "1em",
           display: "inline",
           width: 100,
-          lineHeight: "54px"
+          lineHeight: "54px",
         }}
       >
-        My Dashboard
+        CodeGem
       </h2>
     </div>
     <Menu
@@ -32,7 +32,7 @@ const Header = ({ location }) => (
       mode="horizontal"
       selectedKeys={[location.pathname]}
       style={{
-        lineHeight: "64px"
+        lineHeight: "64px",
       }}
     >
       <Menu.Item key="/explore">
